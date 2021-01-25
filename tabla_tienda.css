@@ -1,0 +1,37 @@
+body{
+	font-family: 'Teko', sans-serif;
+	color: #9EAFE0;
+}
+
+/*Barra de navegación*/
+.nav-enlace{
+	display: inline-block;
+	background:#7D2CD0;
+	color: #DED9E3;
+	padding: 10px 30px;
+	text-decoration: none;
+}
+
+.nav-enlace:hover{
+	background: #471579;
+}
+
+nav{
+	background: #CA0505;
+	padding: 10px;
+}
+
+
+.container{
+	margin:0 auto;
+	width: 90%
+}
+
+.flex{
+	display:flex;
+}
+
+.text-center{
+	text-align: center;
+}
+

@@ -1,0 +1,70 @@
+body{
+	font-family: 'Teko', sans-serif;
+	color: #9EAFE0;
+}
+
+/*Barra de navegación*/
+.nav-enlace{
+	display: inline-block;
+	background:#7D2CD0;
+	color: #DED9E3;
+	padding: 10px 30px;
+	text-decoration: none;
+}
+
+.nav-enlace:hover{
+	background: #471579;
+}
+
+nav{
+	background: #CA0505;
+	padding: 10px;
+}
+
+/*Footer*/
+
+.nav-foot{
+	display: inline-block;
+	background:#7D2CD0;
+	color: #DED9E3;
+	padding: 10px 30px;
+	text-decoration: none;
+}
+
+.nav-foot:hover{
+	background: #471579;
+}
+
+nav{
+	background: #CA0505;
+	padding: 10px;
+}
+
+@media (max-width: 600px){
+	nav{
+		background: #486EDB;
+		flex-direction: column;
+	}
+	.nav-enlace{
+		margin: 10px 0;
+	}
+
+}
+
+
+
+/*Swal.fire({
+  title: 'Custom width, padding, background.',
+  width: 600,
+  padding: '3em',
+  background: '#fff url(/images/trees.png)',
+  backdrop: `
+    rgba(0,0,123,0.4)
+    url("/images/nyan-cat.gif")
+    left top
+    no-repeat
+  `
+})*/
+
+
+

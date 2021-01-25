@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>LegendarioGaming</title>
+	<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>El Rincón del Legendario</title>
+        <link rel="stylesheet" href="tabla_tienda.css">
+         <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+ <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-firestore.js"></script>
+        
+<body background="Praise The Sun BK4.png">
+	
+        <a class="navbar-brand" href="#"><img src="Logo HTML.png"  width="150" height="150" alt="#" /></a>
+   <nav>
+        <center>
+         <a href="index.html" class="nav-enlace">Inicio</a>
+         <a href="tienda.html" class="nav-enlace">Tienda</a>
+         <a href="Pag_Oficiales.html" class="nav-enlace">Páginas Oficiales</a>
+         <a href="Perfil.html" class="nav-enlace">Perfil</a>     
+    </nav>
+    </center>
+        
+        <header id="home">
+            <div class="overlay">
+                <div class="container">
+                    <div>
+                        <center>
+                        <h1><span>Tienda</span><br>
+                   		</center>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        			<center>
+        	<section class= "container flex text-center">
+			        <table class="table">
+			  <div class="columna">
+			  <tr>
+			    <th scope="col">ID</td>
+			    </div>
+			    	<div class="columna">
+			    <th scope="col">Consola</td>
+			    </div>
+			    <div class="columna">
+			    <th scope="col">Descripcion</td>
+			    </div>
+			    <div class="columna">
+			    <th scope="col">Precio</td>
+			    </div>
+			    <div class="columna">
+			    <th scope="col">Videojuego</td>
+			    </div>
+			  </tr>
+			</th>
+			<tbody id="tabla">
+			</tbody>
+			</table>
+		</section>
+		</center>
+<br>
+<br>
+        <center>
+    <label>Videojuego</label>
+    <input type="text" name="" id="Videojuego" required>
+    <br>
+    <label>Consola</label>
+    <input type="text" name="" id="Consola">
+    <br>
+    <label>Descripcion</label>
+    <input type="password" name="" id="Descripcion">
+    <br>
+    <label>Precio</label>
+    <input type="text" name="" id="Precio">
+<br>
+    <button onclick="agregarDatos()">Aceptar</button>
+    <br>
+    <button onclick="borrarDatosUsuarios()">Eliminar</button>
+    <br>
+    <button onclick="editarUsuario()">Editar</button>
+    <br>
+    <button onclick="leerDatosUsuario()">Leer</button>
+    </center>
+</body>
+<script type="text/javascript" src="js.js"></script>
+</html>

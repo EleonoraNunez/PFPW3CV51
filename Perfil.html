@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>LegendarioGaming</title>
+	<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>El Rincón del Legendario</title>
+         <link rel="stylesheet" href="perfil.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+	<script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"></script>
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCVNlvi9zyb8HD30nXyAimeU4VDn-6k3Pk",
+    authDomain: "legendariogaming-58719.firebaseapp.com",
+    projectId: "legendariogaming-58719",
+    storageBucket: "legendariogaming-58719.appspot.com",
+    messagingSenderId: "893806069957",
+    appId: "1:893806069957:web:c3aade3d6714b3b53988ac"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+</head>
+<body>
+	<body background="Praise The Sun BK4.png">
+        <a class="navbar-brand" href="#"><img src="Logo HTML.png"  width="150" height="150" alt="#" /></a>
+   <nav>
+        <center>
+         <a href="index.html" class="nav-enlace">Inicio</a>
+         <a href="Tienda.html" class="nav-enlace">Tienda</a>
+         <a href="Pag_Oficiales.html" class="nav-enlace">Páginas Oficiales</a>
+         <a href="Perfil.html" class="nav-enlace">Perfil</a>      
+    </nav>
+    </center>
+        
+        <header id="home">
+            <div class="overlay">
+                <div class="container">
+                    <div>
+                        <center>
+                        <h1><span>Perfil</span><br></h1>
+                        	</center>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </nav>
+        <center>
+	<label>Nombre</label>
+	<input type="text" name="" id="nombreNuevoUsuario" required>
+	<br>
+	<label>Email</label>
+	<input type="text" name="" id="emailNuevoUsuario">
+	<br>
+	<label>Contraseña</label>
+	<input type="password" name="" id="contraseniaNuevoUsuario">
+	<br>
+	<label>ID</label>
+	<input type="text" name="" id="usuarioaEliminar">
+<br>
+	<button onclick="agregarDatos()">Acceder</button>
+	<br>
+	<button onclick="borrarDatosUsuarios()">Borrar</button>
+	</center>
+</body>
+<script type="text/javascript" src="app_1.js"></script>
+</html>
